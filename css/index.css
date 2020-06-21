@@ -3,6 +3,13 @@
 :root {
 	padding: 1em;
 }
+
+body {
+	/* Default properties */
+	font-family: 'Roboto';
+	text-align: left;
+}
+
 p {
 	margin: 0;
 	padding: 0.2em 0 .2em 0;
@@ -13,14 +20,8 @@ ul {
 	padding: 0;
 }
 
-li {
+section ul li {
 	padding: .3em 0 .3em 0;
-}
-
-body {
-	/* Default properties */
-	font-family: 'Roboto';
-	text-align: left;
 }
 
 .property {
@@ -42,7 +43,7 @@ body {
 .detached {
 	text-transform: uppercase;
 	color: lightslategrey;
-	font-weight: 500;
+	font-weight: 600;
 }
 
 .price {
@@ -86,6 +87,14 @@ body {
 	color: gray;
 }
 
+.learn-more {
+	text-decoration: none;
+	color: #026fb8;
+	padding: .5em;
+	background-color: #d4d5d6;
+	border-radius: 5em;
+}
+
 .a {
 	text-indent: 2em;
 	padding: 0.3em;
@@ -103,6 +112,13 @@ body {
 .c {
 	background-color: #F8FCFF;
 	text-indent: 2em;
-	padding: 0.3em;
+	padding: 0.3em 0.3em 2em 0.3em;
+	margin: 0.3em;
+}
+
+.d {
+	text-indent: 2em;
+	text-align: center;
+	padding: 0.3em 0.3em 2em 0.3em;
 	margin: 0.3em;
 }
