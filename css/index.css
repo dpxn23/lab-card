@@ -3,31 +3,106 @@
 :root {
 
 }
+p {
+	margin: 0;
+	padding: 0.2em 0 .2em 0;
+}
+
+ul {
+	margin: 0em;
+	padding: 0;
+}
+
+li {
+	padding: .3em 0 .3em 0;
+}
 
 body {
 	/* Default properties */
+	font-family: 'Roboto';
+	text-align: left;
 }
 
 .property {
-	background-color: lightgreen;
-	width: 20em;
-	padding: 2em;
+	background-color:white;
+	height: auto;
+	width: 25em;
+	margin: 0;
+	padding: 0.3em;
+}
+
+.picture {
+	max-width: 24em;
+}
+.age {
+	text-transform: uppercase;
+	color: lightslategray;
+}
+
+.detached {
+	text-transform: uppercase;
+	color: lightslategrey;
+	font-weight: 500;
+}
+
+.price {
+	font-size: 2em;
+}
+
+.address {
+	color: lightslategray;
 }
 
 .howmany {
 	/* color: red; */
 	font-weight: 700;
+	color: black;
 }
 .rooms {
 	list-style-type: none;
+	text-transform: capitalize;
+	color: lightslategray;
+}
+
+.icon {
+	margin-right: .5em;
+	width: 1em;
+	height: 1em;
+}
+
+.occupation {
+	font-size: 1em;
+	padding-bottom: .7em;
+	text-transform: uppercase;
+	color: lightslategray;
+}
+
+.annie {
+	text-transform: capitalize;
+	font-weight: 700;
+}
+
+.phone {
+
 }
 
 .a {
-	/* background-color: blue; */
+	text-indent: 2em;
+	padding: 0.3em;
+	margin: 0;
+	border-bottom: .05em solid lightgray;
 }
+
 .b {
-	/* background-color: red; */
+	text-indent: 2em;
+	padding: 0.3em;
+	margin: 0.3em;
+	border-bottom: .05em solid lightgray;
 }
+
 .c {
-	/* background-color: gold; */
+	background-color: #F8FCFF;
+	text-indent: 2em;
+	padding: 0.3em;
+	margin: 0.3em;
 }
